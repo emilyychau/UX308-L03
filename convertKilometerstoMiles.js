@@ -1,7 +1,5 @@
-// q1
+// example solution
 // Take a variable with distance in **km** as input and an output of the same distance *converted* to **miles**
-
-1.609
 
 function convertKilometerstoMiles(km){
     let miles = km/1.609

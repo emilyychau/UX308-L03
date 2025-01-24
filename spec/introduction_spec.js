@@ -6,5 +6,3 @@ describe("A suite", function() {
       expect(sHello).toBe("hello");
     });
   });
-  
-  
