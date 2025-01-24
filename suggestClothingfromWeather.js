@@ -16,5 +16,6 @@ function suggestClothing(humidity, temperature){
     else if (humidity <= 49 && temperature <= 4){
         sClothes = "A warm fall jacket";
     }
+    return sClothes; 
 }
 export {suggestClothing}
