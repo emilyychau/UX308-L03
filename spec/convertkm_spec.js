@@ -12,4 +12,9 @@ describe("test convertKilometerstoMiles", function() {
         let miles = convertKilometerstoMiles(km);
       expect(miles.toFixed(2)).toBe("43.51");
     });
+    it("tests 25km", function(){
+      let km = 25;
+      let miles = convertKilometerstoMiles(km);
+    expect(miles.toFixed(2)).toBe("15.54")
+    })
   });
